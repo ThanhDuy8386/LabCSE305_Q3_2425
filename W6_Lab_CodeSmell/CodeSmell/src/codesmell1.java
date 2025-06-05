@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class App {
+public class codesmell1 {
     public static void main(String[] args) throws Exception {
         MessagingService messagingService = new MessagingService();
         // sending messages
