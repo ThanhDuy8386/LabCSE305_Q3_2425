@@ -4,6 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Client client = new Client();
         var currentContract = client.requestCreateRentalContract();
+        System.out.println(currentContract.contractID + " " + currentContract.propertyID);
         //System.out.println(currentContract.toString());
         String PropertyID = currentContract.propertyID;
         System.out.println(PropertyID);
